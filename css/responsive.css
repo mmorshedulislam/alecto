@@ -1,0 +1,83 @@
+@media (max-width: 360px){
+	.menu ul{
+		display: block;
+		padding: 0;
+	}
+	.menu ul li a{
+		padding: 10px 0;
+		display: block;
+	}
+	.menu{
+		position: absolute;
+		top: 20px;
+		right: 70px;
+		width: 100px;
+		height: auto;
+		display: none;
+	}
+	.menu-icon{
+		position: absolute;
+		top: 20px;
+		right: 50px;
+		z-index: 999;
+		color: #fff;
+		display: block;
+	}
+	.menu-icon:hover{
+		cursor: pointer;
+	}
+	.box-1{
+	width: 250px;
+	height: 100px;
+	background: #e4e4e4;
+	}
+	.box-2{
+	width: 250px;
+	height: 100px;
+	background: #f9f9fa;
+	}
+	.box-3{
+	width: 250px;
+	height: 100px;
+	background: #efefef;
+	}
+	.box-4{
+	width: 250px;
+	height: 100px;
+	background: #e4e4e4;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12Px;
+	transition: .5s;
+	color: #fff;
+	}
+	.purchase{
+		margin-bottom: 30px;
+	}
+	.maps-1{
+		margin-top: 30px;
+	}
+	.menu {
+	position: absolute;
+	top: 0px;
+	right: 113px;
+	width: 100px;
+	height: auto;
+	display: none;
+	background: #594b5396;
+	}
+	.carousel-item img{
+		height: 180px;
+	}
+	.icon {
+	width: 203px;
+	height: 75px;
+	background: #ffffff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 40px;
+	}
+}

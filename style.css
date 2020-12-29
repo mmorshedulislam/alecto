@@ -1,0 +1,613 @@
+/* Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');
+/*
+
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+*/
+
+/* -=-=-=-Common CSS -=-=-=*/
+img{
+	width: 100%;
+	height: auto;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/* -=-=-=-Header CSS -=-=-=*/
+.alecto-header-area{
+	position: relative;
+}
+.carousel-area{}
+.carousel{
+	position: relative;
+}
+.carousel-caption{
+	width: 60%;
+	position: absolute;
+	top: 40%;
+	margin: 0 auto;
+}
+.carousel-caption h5{
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+}
+.carousel-caption h5 b{
+	font-weight: 800;
+}
+.carousel-caption p{
+	font-size: 20px;
+}
+.carousel-button{}
+.carousel-button button{
+	background: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 35px;
+	padding: 20 20px;
+	margin-top: 30px;
+}
+.carousel-button button:hover{
+	background: #fff;
+}
+.carousel-item{}
+.carousel-item img{
+	width: 100%;
+	height: 100vh;
+}
+
+.carousel-indicators{}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-bottom: 120px;
+}
+.logo{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+.menu-icon{
+	display: none;
+}
+.menu{
+	position: absolute;
+	top: 5%;
+	right: 10%;
+}
+.menu ul{
+	display: flex;
+	justify-content: center;
+}
+.menu ul li{
+	list-style: none;
+	padding: 0 20px;
+}
+.menu ul li a{
+	color: #ffff;
+	font-family: 'Oswald', sans-serif;
+}
+
+/* -=-=-=-Abut CSS -=-=-=*/
+
+.alecto-about-area{
+	padding: 80px 0;
+	background: #ffff;
+}
+.section-title{
+	text-align: center;
+}
+.section-title h1{
+	font-family: 'Raleway', sans-serif;
+	color: #576671;
+	font-size: 60px;
+	margin-bottom: 50px;
+}
+.section-title p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	margin-bottom: 80px;
+}
+.about-items{}
+.single-item{
+	text-align: center;
+}
+.single-item h5{
+	margin-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+
+}
+.single-item p{
+	font-family: 'Raleway', sans-serif;
+
+}
+.item{
+	width: 150px;
+	height: 150px;
+	background: #edeff1;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	transition: .5s;
+}
+.item img{
+	width: 60px;
+	height: 60px;
+}
+.item:hover{
+	background: #17daa3;
+}
+.about-button{
+	
+}
+.about-button button{
+	background: #17daa3;
+	border-radius: 25px;
+	padding: 10px 20px;
+	margin-left: 45%;
+	color: #fff;
+	margin-top: 80px;
+	font-family: 'Raleway', sans-serif;
+}
+.about-button button:hover{
+	color: #fff;
+}
+
+/* -=-=-=-Lorem CSS -=-=-=*/
+.alecto-lorem-area{
+	padding: 80px 0;
+	background: #f9f9fa;
+}
+.lorem-item{}
+.lorem-item h1{
+	margin-bottom: 70px;
+}
+.lorem-item p{}
+.lorem-item button{
+	background: #17daa3;
+	border-radius: 25px;
+	padding: 10px 20px;
+	color: #fff;
+	margin-top: 70px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/* -=-=-=-dolor CSS -=-=-=*/
+.alecto-dolor-area{
+	padding: 80px 0;
+	background: #fff;
+}
+.lorem-item{}
+.lorem-item h1{
+	margin-bottom: 70px;
+}
+.lorem-item p{}
+.lorem-item button{
+	background: #17daa3;
+	border-radius: 25px;
+	padding: 10px 20px;
+	color: #fff;
+	margin-top: 70px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* -=-=-=-Banner2 CSS -=-=-=*/
+.alecto-banner2-area{
+	position: relative;
+}
+.carousel-area{}
+.carousel{
+	position: relative;
+}
+.carousel-caption{
+	width: 60%;
+	position: absolute;
+	top: 40%;
+	margin: 0 auto;
+}
+.alecto-banner2-area .carousel-caption h5{
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+}
+.alecto-banner2-area .carousel-caption h5 b{
+	font-weight: 800;
+	color: #16d29d;
+}
+.alecto-banner2-area .carousel-caption p{
+	font-size: 15px;
+}
+.carousel-caption{}
+.carousel-caption img{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+/* -=-=-=-Service CSS -=-=-=*/
+.alecto-services-area{
+	padding: 80px 0;
+	background: #f9f9fa;
+	overflow: hidden;
+}
+
+.services-items{}
+.services-items-single{
+	display: flex;
+	padding: ;
+	margin-bottom: 20px;
+
+}
+.icon{
+	width: 150px;
+	height: 100px;
+	background: #ffffff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 40px;
+}
+.icon img{
+	width: 30px;
+	height: 30px;
+	
+}
+.service-info{}
+.service-info h2{
+	font-size: 25px;
+}
+.service-info p{
+	font-size: 14px;
+}
+
+/* -=-=-=-Team CSS -=-=-=*/
+
+.alecto-team-area{
+	padding-top: 80px;
+}
+.boxs{
+	display: flex;
+}
+.box-1{
+	width: 400px;
+	height: 300px;
+	background: #e4e4e4;
+}
+.box-2{
+	width: 400px;
+	height: 300px;
+	background: #f9f9fa;	
+}
+
+.boxs-1{
+	display: flex;
+}
+.box-3{
+	width: 400px;
+	height: 300px;
+	background: #efefef;
+}
+.box-4{
+	width: 400px;
+	height: 300px;
+	background: #e4e4e4;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30Px;
+	transition: .5s;
+	color: #fff;
+}
+.box-1:hover,
+.box-2:hover, 
+.box-3:hover, 
+.box-4:hover{
+	background: #2dddac;
+}
+
+/* -=-=-=-Price CSS -=-=-=*/
+.alecto-price-area{
+	padding: 80px 0;
+	background: #f9f9fa;
+}
+.price{}
+.price-no{
+	background: #ffff;
+	height: 200px;
+	border-bottom: 1px solid #eeeff1;
+}
+.price-no h2{
+	color: #17daa3;
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	padding-left: 30px;
+	padding-top: 30px;
+
+
+}
+.price-no p{
+	padding-left: 30px;
+}
+.price-info{}
+.price-details{
+	background: #fff;
+	height: 200px;
+
+}
+.price-details p{
+	font-family: 'Raleway', sans-serif;
+	color: #98a3ab;
+	padding: 30px 30px;
+
+}
+.price-purchase{
+	
+	
+}
+.purchase{
+	background: #1bdaa4;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 30px;
+
+}
+.purchase a h4{
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-weight: 800;
+}
+.purchase p{
+	float: right;
+	color: #fff;
+}
+
+/* -=-=-=-Map CSS -=-=-=*/
+
+
+.alecto-map-area{
+	padding: 80px 0;
+}
+.maps{}
+.maps-1{}
+.maps-1 img{}
+
+/* -=-=-=-PSD CSS -=-=-=*/
+
+.alecto-psd-area{
+	background: url(images/banner2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	height: 80vh;
+}
+.psd{
+	text-align: center;
+}
+.psd h1{
+	color: #ffffff;
+	padding-top: 300px;
+	font-size: 50px;
+}
+.psd a{}
+.psd a button{
+	background: #17daa3;
+	border-radius: 25px;
+	padding: 10px 30px;
+	color: #fff;
+	margin-top: 20px;
+}
+.psd a button b{}
+
+/*-=-=-=-=Footer CSS-=-=-=-=-*/
+
+.alecto-footer-area{
+
+}
+
+.icon-details{
+	float: left;
+	display: flex;
+	margin-top: 20px;
+}
+.icon-details .icon-details-image img{
+	width: 20px;
+	height: 20px;
+}
+.icon-details .icon-details-info p{
+	margin-left: 10px;
+	color: #bbc1c7;
+}
+.footer-menu{
+	float: right;
+	margin-top: 30px;
+}
+.footer-menu ul{
+	display: flex;
+	justify-content: center;
+}
+.footer-menu ul li{
+	list-style: none;
+	padding: 10px;
+}
+.footer-menu ul li a{
+	color: #ced3d7;
+	transition: .5s;
+
+}
+.footer-menu ul li a:hover{
+	color: #bbc1c7;
+}
+
+.copy{
+	float: left;
+}
+
+.devloper{
+	margin-left: 645px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 	-=-=---=	Responsive	-=-=-=-=-=-	*/
+
+@media(max-width: 767px){
+
+	.carousel-item img{
+	width: 768px;
+	height: auto;
+	}
+
+	.item{
+	width: 100px;
+	height: 100px;
+	background: #edeff1;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	transition: .5s;
+	}
+	.item img{
+	width: 50px;
+	height: 50px;
+	}
+	.single-item h5{
+	margin-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	}
+	.single-item p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	}
+	.services-items-single{
+	display: flex;
+	padding: ;
+	margin-bottom: 30px;
+	}
+
+	.h4, h4 {
+	font-size: 20px;
+	}
+	.psd h1{
+	color: #ffffff;
+	padding-top: 300px;
+	font-size: 30px;
+	}
+	.footer-menu ul li a{
+	color: #ced3d7;
+	transition: .5s;
+	font-size: 12px
+	}
+	.icon-details .icon-details-info p {
+	margin-left: 10px;
+	color: #bbc1c7;
+	font-size: 12px;
+	}
+	.price-no h2 {
+	color: #17daa3;
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	padding-left: 30px;
+	padding-top: 30px;
+	}
+	.about-button button{
+	background: #17daa3;
+	border-radius: 25px;
+	padding: 10px 20px;
+	margin-left: 45%;
+	color: #fff;
+	margin-top: 80px;
+	margin-left: 37%;
+	font-family: 'Raleway', sans-serif;
+	}
+	.psd a button{
+	background: #17daa3;
+	border-radius: 25px;
+	padding: 10px 30px;
+	color: #fff;
+	margin-bottom: 20px;
+	}
+
+}
+
+@media(max-width: 576px){
+
+	.carousel-item img{
+	width: 576px;
+	height: auto;
+	}
+	.section-title p{
+		font-size: 14px;
+	}
+	.section-title h1{
+		font-size: 36px;
+	}
+	
+	.box-1{
+	width: 400px;
+	height: 100px;
+	background: #e4e4e4;
+}
+	.box-2{
+	width: 400px;
+	height: 100px;
+	background: #f9f9fa;	
+	}
+	.box-3{
+	width: 400px;
+	height: 100px;
+	background: #efefef;
+	}
+	.box-4{
+	width: 400px;
+	height: 100px;
+	background: #e4e4e4;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30Px;
+	transition: .5s;
+	color: #fff;
+	}
+	.alecto-psd-area{
+	background: url(images/banner2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: auto;
+	}
+
+
+}
